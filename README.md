@@ -18,6 +18,7 @@ $ yarn link react-native-my-fud-toast
 $ yarn haul start --platform android  # 因為原生不支援 symlinks，所以用 haul 啟動 bundle server
 $ react-native run-android
 ```
+更新 module 後需要再次 react-native run-android，APP 才會更新，因為是更新 Native Code
 
 
 ## Troubleshoot
