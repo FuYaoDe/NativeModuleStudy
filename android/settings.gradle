@@ -1,3 +1,5 @@
 rootProject.name = 'NativeModuleStudy'
+include ':react-native-my-fud-toast'
+project(':react-native-my-fud-toast').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-my-fud-toast/android')
 
 include ':app'
