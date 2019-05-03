@@ -21,7 +21,7 @@ type Props = {};
 export default class App extends Component<Props> {
 
   componentDidMount() {
-    console.log('log');
+    RNMyFudToast.show('Native Module', RNMyFudToast.SHORT)
   }
   render() {
     return (
