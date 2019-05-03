@@ -4,6 +4,16 @@ React Native 0.59.5
 - 使用 Haul 測試 Native Module
 - Native Modeule Sample https://github.com/FuYaoDe/MyFudToast
 
+## 新增專案
+```
+$ react-native init demo
+$ yarn install
+$ yarn add --dev haul
+$ yarn haul init
+$ yarn haul start
+$ react-native run-android
+```
+
 ## 安裝/開發
 ```
 $ git clone https://github.com/FuYaoDe/MyFudToast.git
@@ -18,7 +28,6 @@ $ yarn link react-native-my-fud-toast
 $ yarn haul start --platform android  # 因為原生不支援 symlinks，所以用 haul 啟動 bundle server
 $ react-native run-android
 ```
-
 
 ## Troubleshoot
 
